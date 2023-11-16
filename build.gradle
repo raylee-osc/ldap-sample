@@ -22,7 +22,10 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.ldap:spring-ldap-core'
+	// implementation 'org.springframework.boot:spring-boot-starter-data-ldap'
+	// https://mvnrepository.com/artifact/org.springframework.ldap/spring-ldap-core
+	implementation 'org.springframework.ldap:spring-ldap-core:3.1.2'
+
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
