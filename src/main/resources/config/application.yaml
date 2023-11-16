@@ -1,0 +1,11 @@
+---
+spring:
+    output:
+        ansi:
+            enabled: always
+
+ldap:
+    url:
+    base:
+    username:
+    password:
